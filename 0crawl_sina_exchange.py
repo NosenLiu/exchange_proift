@@ -56,7 +56,7 @@ class ExchangeCalc():
                 tag=1
             except:
                 print(u'爬取数据故障，正在重新爬取。')
-                time.sleep(5)
+                time.sleep(4)
         if tag==1:
             return {'uc':UC,'cu':CU,'ec':EC,'ce':CE,'ue':UE,'eu':EU}
         # print('美元兑人民币： ',USDCNY.text)
